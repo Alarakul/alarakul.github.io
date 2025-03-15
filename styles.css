@@ -1,27 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #0d1b1e; /* Dark Greenish Teal */
-    color: #c0c0c0; /* Silver */
-    line-height: 1.6;
+    background-color: #0d1b1e; /* Charcoal/Steel Background */
+    color: #c0c0c0; /* Steel Text */
 }
 
 header {
-    background-color: #1a1a2e; /* Midnight Purple */
+    background-color: #1a1a1a; /* Dark Steel-like Color */
     padding: 20px;
     text-align: center;
-    font-size: 1.5em;
-    font-weight: 600;
-    color: #c0c0c0;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
-    margin: 0;
 }
 
 nav ul li {
@@ -30,47 +25,48 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #4caf50; /* Dark Green */
+    color: #1f4f2f; /* Dark Green Accent */
     text-decoration: none;
-    font-weight: 600;
-    font-size: 1.1em;
+    font-weight: bold;
     transition: color 0.3s;
 }
 
 nav ul li a:hover {
-    color: #c0c0c0; /* Silver Hover */
+    color: #c0c0c0; /* Steel Hover */
 }
 
 section {
-    padding: 80px 15%;
+    padding: 50px;
     text-align: center;
+    background-color: #1a1a1a; /* Dark Steel-like Background */
 }
 
 .project {
-    background-color: #1a1a2e; /* Midnight Purple */
+    background-color: #2b2b2b; /* Slightly Lighter Steel */
     padding: 25px;
     margin: 30px auto;
     width: 75%;
     border-radius: 12px;
-    border: 2px solid #4caf50; /* Dark Green Border */
+    border: 2px solid #1f4f2f; /* Dark Green Border */
     text-align: left;
 }
 
 .project h3 {
     font-size: 1.4em;
-    color: #4caf50; /* Dark Green */
+    color: #1f4f2f; /* Dark Green */
     margin-bottom: 10px;
 }
 
 .project p {
     font-size: 1em;
-    color: #c0c0c0;
+    color: #c0c0c0; /* Steel Text */
 }
 
 footer {
     text-align: center;
     padding: 15px;
-    background-color: #1a1a2e;
+    background-color: #1a1a1a;
     color: #c0c0c0;
     font-size: 0.9em;
 }
+
