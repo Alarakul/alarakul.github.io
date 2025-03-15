@@ -4,17 +4,18 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #0a192f;
-    color: #ccd6f6;
+    background-color: #0d1b1e; /* Dark Greenish Teal */
+    color: #c0c0c0; /* Silver */
     line-height: 1.6;
 }
 
 header {
-    background-color: #112240;
+    background-color: #1a1a2e; /* Midnight Purple */
     padding: 20px;
     text-align: center;
     font-size: 1.5em;
     font-weight: 600;
+    color: #c0c0c0;
 }
 
 nav ul {
@@ -29,7 +30,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #64ffda;
+    color: #4caf50; /* Dark Green */
     text-decoration: none;
     font-weight: 600;
     font-size: 1.1em;
@@ -37,7 +38,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ff79c6;
+    color: #c0c0c0; /* Silver Hover */
 }
 
 section {
@@ -46,30 +47,30 @@ section {
 }
 
 .project {
-    background-color: #112240;
+    background-color: #1a1a2e; /* Midnight Purple */
     padding: 25px;
     margin: 30px auto;
     width: 75%;
     border-radius: 12px;
-    border: 2px solid #64ffda;
+    border: 2px solid #4caf50; /* Dark Green Border */
     text-align: left;
 }
 
 .project h3 {
     font-size: 1.4em;
-    color: #64ffda;
+    color: #4caf50; /* Dark Green */
     margin-bottom: 10px;
 }
 
 .project p {
     font-size: 1em;
-    color: #ccd6f6;
+    color: #c0c0c0;
 }
 
 footer {
     text-align: center;
     padding: 15px;
-    background-color: #112240;
-    color: #64ffda;
+    background-color: #1a1a2e;
+    color: #c0c0c0;
     font-size: 0.9em;
 }
